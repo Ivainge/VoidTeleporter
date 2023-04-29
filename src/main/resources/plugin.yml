@@ -1,0 +1,11 @@
+name: VoidTeleporter
+version: '${project.version}'
+main: me.ivainge.voidteleporter.Main
+authors: [ Ivainge ]
+description: A simple plugin to teleport the player when falling into the void
+website: https://www.spigotmc.org/resources/void-teleporter.105243/
+api-version: 1.13
+commands:
+  voidteleporter:
+    aliases: [voidtp, vt]
+    description: "Main plugin command"

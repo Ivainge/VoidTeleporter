@@ -1,0 +1,34 @@
+# This plugin was made by a Russian developer who does not know English well and uses a translator.
+# So the comments will be in Russian and English.
+#
+# Этот плагин сделал русский разрабодчик, который плохо знает английский язык и пользуется переводчиком.
+# Так что комментарии будут на русском и английском языках.
+
+# Если стоит true то игрока будет тепать на спавн если он упадёт в любом мире.
+# If this is true, then the player will be teleported to spawn if he falls while in any world.
+all-world-tp: true
+
+# Если all-world-tp false, то будет игрока телепортировать на спавн если он упадёт только в этом мире. Если all-world-tp true, то этот параметр не работает.
+# If all-world-tp is false, then the player will be teleported to spawn if he falls only in this world. If all-world-tp is true then this option has no effect.
+tp-world: lobby
+
+# Мир, в который будет телепортировать игрока при падении в пустоту.
+# The world to which the player will be teleported when falling into the void.
+spawn-world: world
+
+# Высота при которой игрока телепортирует на спавн.
+# The height at which the player teleports to spawn.
+tp-height: 0
+
+# Координаты на которые будет телепортировать игрока при падении в пустоту.
+# The coordinates to which the player will be teleported when falling into the void.
+X-spawn-coordinate: 0.5
+Y-spawn-coordinate: 120
+Z-spawn-coordinate: 0.5
+spawn-yaw: 90
+spawn-pitch: 0
+
+# Messages
+plugin-reloaded: "&aPlugin reloaded."
+no-permission-message: "&cYou do not have permission."
+tp-player-message: "Вас тепнуло на спавн т.к. вы пали"
